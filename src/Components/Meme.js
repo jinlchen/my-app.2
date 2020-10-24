@@ -5,7 +5,7 @@ class Meme extends React.Component{
         super()
         this.state={TopText:"",
                     BottomText:'',
-                    RandomImg:'/2.jpg',
+                    RandomImg:'/1.jpg',
                     AllImg:[]       
         }
         this.handleChange = this.handleChange.bind(this)
