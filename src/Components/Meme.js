@@ -5,7 +5,7 @@ class Meme extends React.Component{
         super()
         this.state={TopText:"",
                     BottomText:'',
-                    RandomImg:'',
+                    RandomImg:'/1.jpg',
                     AllImg:[]       
         }
         this.handleChange = this.handleChange.bind(this)
@@ -19,7 +19,7 @@ class Meme extends React.Component{
         console.log(memes[1])
         })
       //  fetch("https://swapi.co/api/people/1").then(response=>response.json).then(data=>console.log(data))
-     // console.log(xx)
+      console.log(this.state.RandomImg)
 
     }
     handleClick(){
